@@ -45,8 +45,8 @@ jobs:
 
       - name: Update Kubernetes Deployment manifest with new image
         run: |
-          sed -i "s|image:.*|image: $IMAGE_URI|g" k8s/deployment.yaml
-          git add k8s/deployment.yaml
+          sed -i "s|image:.*|image: $IMAGE_URI|g" k8/deployment.yaml
+          git add k8/deployment.yaml
           git commit -m "ci: update image to $IMAGE_URI" || echo "No changes to commit"
 
       - name: Push changes to GitHub
