@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: reactjs-app
-        image: 423623845359.dkr.ecr.us-east-1.amazonaws.com/reactjs-app-k8:latest  # <- this will get replaced by GitHub Actions with proper SHA tag
+        image: 423623845359.dkr.ecr.us-east-1.amazonaws.com/reactjs-app-k8:6b6e3aa5bbfab7a0a44882e216db6c7841d430f9
         ports:
         - containerPort: 9000
