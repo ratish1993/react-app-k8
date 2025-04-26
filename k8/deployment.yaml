@@ -16,6 +16,6 @@ spec:
       - name: ecr-creds   # <-- important
       containers:
       - name: reactjs-app
-        image: 423623845359.dkr.ecr.us-east-1.amazonaws.com/reactjs-app-k8:360036df75285af6619f4cb38d895ae4a684b1fe
+        image: 423623845359.dkr.ecr.us-east-1.amazonaws.com/reactjs-app-k8:6b2f487aea01a9f95e3c50a20ac07d196980a703
         ports:
         - containerPort: 9000
