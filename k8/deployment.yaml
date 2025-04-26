@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: reactjs-app
-  labels:
-    app: reactjs-app
 spec:
   replicas: 1
   selector:
@@ -16,6 +14,6 @@ spec:
     spec:
       containers:
       - name: reactjs-app
-        image: 423623845359.dkr.ecr.us-east-1.amazonaws.com/reactjs-app-k8:IMAGE_TAG
+        image: 423623845359.dkr.ecr.us-east-1.amazonaws.com/reactjs-app-k8:latest  # <- this will get replaced by GitHub Actions with proper SHA tag
         ports:
         - containerPort: 9000
