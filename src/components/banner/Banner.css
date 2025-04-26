@@ -1,0 +1,112 @@
+.banner-bg {
+  background-color: #f6f6f6;
+  position: relative;
+  padding: 0px 20px;
+}
+.default {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding: 30px 20px 0px 70px;
+  border-radius: 20px;
+}
+.default img {
+  width: 100%;
+  height: 689px;
+  border-radius: 20px;
+}
+.banner-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding: 185px 0px 0px 0px;
+}
+.banner-content h5 {
+  color: var(--white);
+  font-size: 21px;
+  font-weight: 400;
+  text-transform: capitalize;
+  opacity: 0.6;
+}
+.banner-content h1 {
+  color: var(--white);
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 77px; /* 128.333% */
+}
+.booking-form {
+  border-radius: 1000px;
+  background: var(--White-color, #fff);
+  box-shadow: 0px 11px 20px 0px rgba(0, 0, 0, 0.04);
+  padding: 12px 0px;
+  align-items: center;
+  margin-top: 80px;
+}
+.booking-form img {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+  border-radius: 0px;
+}
+.booking_main {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-right: 1px solid #efefef;
+}
+
+.booking-area {
+  width: 100%;
+  line-height: 25px;
+}
+.booking-area label {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: block;
+}
+.booking-area input {
+  font-size: 14px;
+  width: 100%;
+  border: none;
+}
+.booking-area select {
+  font-size: 14px;
+  border: none;
+  background: transparent;
+  color: #8e8e8e;
+}
+.booking-area input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+.booking-area input:focus {
+  border: none;
+  outline: none;
+}
+.booking-area select:focus {
+  border: none;
+  outline: none;
+}
+.find-btn {
+  display: flex;
+  justify-content: end;
+}
+.find-btn button {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: #e94f1c;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.find-btn button img {
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+}

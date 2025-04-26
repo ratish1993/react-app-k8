@@ -1,0 +1,178 @@
+.loginSection {
+  background-color: #f6f6f6;
+}
+
+.sing-form-section {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 40px 50px;
+  margin: 60px 0px;
+  box-shadow: 0px 15px 134px 0px rgba(0, 0, 0, 0.13);
+}
+
+.sing-form-section .sign-head {
+  margin-bottom: 40px;
+}
+
+.sing-form-section .sign-head h1 {
+  font-size: 34px;
+  color: #000;
+  font-weight: 600;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.sing-form-section .sign-head p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a7a7a7;
+  text-align: left;
+  line-height: normal;
+  padding: 0px;
+}
+
+.sing-form-section .sign-form {
+  position: relative;
+  margin-top: 25px;
+}
+
+.sing-form-section .forgot p {
+  color: #a7a7a7;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 0px;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.sing-form-section .sign-btn {
+  background-color: #e94f1c;
+  color: #fff;
+  border-radius: 30px;
+  padding: 15px 15px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  box-shadow: 0px 54px 60px 0px rgba(0, 0, 0, 0.06);
+}
+
+.sing-form-section p.alternate {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sing-form-section p.alternate a {
+  color: #e94f1c;
+}
+
+.sing-form-section .sign-form input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 15px 15px 15px 15px;
+  line-height: 0px;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.sing-form-section .sign-form label {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: #a7a7a7;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+.sing-form-section .sign-form input:focus ~ label {
+  top: -13px;
+  left: 15px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #a7a7a7;
+  padding-inline: 4px;
+  /* z-index: 1; */
+}
+.sing-form-section .sign-form input:valid ~ label {
+  top: -13px;
+  left: 15px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #a7a7a7;
+  padding-inline: 4px;
+  z-index: -3;
+}
+.link-modal {
+  background: transparent;
+  box-shadow: none;
+  padding: 0px;
+  margin: 0px;
+}
+.main-link-modal .modal-header {
+  padding: 18px 16px 0px 16px;
+  border-bottom: none;
+}
+.main-link-modal .modal-body {
+  padding: 0px 16px 25px 16px;
+}
+.main-link-modal .modal-body p {
+  line-height: 22px;
+  margin-top: 7px;
+}
+
+.phone_field:focus ~ label {
+  top: -13px;
+  left: 15px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #a7a7a7;
+  padding-inline: 4px;
+}
+.sing-form-section .sign-form input::placeholder {
+  font-size: 15px;
+}
+
+.sing-form-section .tab-sec .nav.nav-tabs {
+  border: 0px;
+}
+.sing-form-section .tab-sec .nav.nav-tabs li {
+  width: 48%;
+  margin-right: 2%;
+}
+
+.sing-form-section .tab-sec .nav.nav-tabs li:last-child {
+  margin-right: 0px;
+  margin-left: 2%;
+}
+
+.sing-form-section .tab-sec .nav-tabs .nav-link {
+  width: 100%;
+  background: #e8e8e8;
+  border: none;
+  color: #000;
+  border-radius: 30px !important;
+}
+
+.sing-form-section .tab-sec .nav-tabs .nav-link.active {
+  background-color: #e94f1c;
+  color: #fff;
+  border-radius: 30px !important;
+}
+
+@media(max-width:430px){
+  .sing-form-section{
+    padding: 25px 25px;
+    margin: 35px 0px;
+  }
+  .sing-form-section .sign-head {
+    margin-bottom: 20px;
+}
+  .sing-form-section .sign-head h1{
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+}

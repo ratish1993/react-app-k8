@@ -1,0 +1,144 @@
+.loginSection{
+    background-color: #e6e6e6;
+}
+
+.sing-form-section{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px 30px;
+    margin: 50px 0px;
+}
+
+  .sing-form-section .sign-head{
+    margin-bottom: 40px;
+  }
+
+.sing-form-section .sign-head h1{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.sing-form-section .sign-head p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #A7A7A7;
+    text-align: left;
+    line-height: normal;
+    padding: 0px;
+}
+
+.sing-form-section .sign-form {
+    position: relative;
+    margin-top: 25px;
+  }
+
+.sing-form-section .forgot p{
+    color: #A7A7A7;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 0px;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.sing-form-section .sign-btn{
+    background-color: #E94F1C;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 15px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.sing-form-section p.alternate{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.sing-form-section p.alternate a{
+    color: #E94F1C;
+}
+
+.sing-form-section .sign-form input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    padding: 15px 15px 15px 15px;
+    line-height: 0px;
+    font-size: 15px;
+}
+
+.sing-form-section .sign-form input::placeholder{
+    font-size: 15px;
+}
+
+/* Modal */
+
+.modal-title{
+    position: relative;
+}
+
+.modal-title.h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.modal-title.h4 span{
+    color: #A7A7A7;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    padding-top: 10px;
+}
+
+.modal-header{
+    border: 0px;
+}
+
+.modal-header .btn-close{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+.singForgot .sign-form{
+    margin-top: 0px;
+}
+
+.singForgot .sign-form input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    padding: 15px 15px 15px 15px;
+    line-height: 0px;
+    font-size: 15px;
+}
+
+.singForgot .sign-form input::placeholder{
+    font-size: 15px;
+}
+
+.singForgot .modalSubmit{
+    background-color: #E94F1C;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 15px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 100%;
+    border: 0px;
+    margin: 20px 0px 20px;
+}

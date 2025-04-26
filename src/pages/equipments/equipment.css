@@ -1,0 +1,84 @@
+.preview {
+  position: relative;
+}
+
+.preview img {
+  width: 100%;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0px 1px 5px #000;
+}
+
+.preview i {
+  cursor: pointer;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.multifilter {
+  font-size: 27px;
+}
+
+.sb-setting-popup {
+  width: 242px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.36);
+  border-radius: 4px;
+  cursor: default;
+}
+
+.sb-setting-popup .sb-setting-header {
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  line-height: 15px;
+  font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.setting-label {
+  font-size: 14px;
+}
+
+.sb-setting-content {
+  padding: 4px 16px 4px 16px;
+}
+
+.setting-content select {
+  width: 100%;
+}
+
+.sb-setting-item {
+  padding-bottom: 12px;
+}
+
+.heart {
+  color: red;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.rating {
+  color: #fdc702;
+}
+
+@media(max-width:431px) {
+  .preview img {
+    margin-bottom: 20px;
+  }
+}
