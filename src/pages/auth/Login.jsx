@@ -167,7 +167,7 @@ export default function Login() {
               <div className="sing-form-section">
                 <div className="sign-head">
                   <h1>Sign In</h1>
-                  <p>Welcome back, enter your credentials</p>
+                  <p>Welcome back kubernetes, enter your credentials</p>
                 </div>
                 <div className="sign-form">
                   <input
