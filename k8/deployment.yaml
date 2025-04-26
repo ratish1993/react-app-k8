@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
       - name: reactjs-app
-        image: 423623845359.dkr.ecr.us-east-1.amazonaws.com/reactjs-app-k8:latest
+        image: 423623845359.dkr.ecr.us-east-1.amazonaws.com/reactjs-app-k8:IMAGE_TAG
         ports:
         - containerPort: 9000
-
